@@ -96,6 +96,7 @@ public class Probability {
 		}
 		prob.add(a_a);
 		prob.add(a_b);
+		System.out.println("Region " +this.i+ " in time step "+ this.n + " has neighbor "+ (S.size()+I.size()+R.size()));
 		return prob;
 	}
 	
@@ -143,7 +144,7 @@ public class Probability {
 				next_state = current_state;
 			}
 		}
-//		System.out.println("Current state for region " +this.i+ "in time step "+ this.n + " is "+ current_state);
+		System.out.println("Current state for region " +this.i+ "in time step "+ this.n + " is "+ current_state);
 //		System.out.println(lsave);
 		return next_state;
 	}

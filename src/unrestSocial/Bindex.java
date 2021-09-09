@@ -38,7 +38,6 @@ public class Bindex {
 	//method to calculate cosine similarity between two vectors
 	public double cosine_sim(List<Double>l1, List<Double> l2) {
 			
-			
 			double dotProduct = 0;
 			double norm1 = 0;
 			double norm2 = 0;

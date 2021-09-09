@@ -22,8 +22,23 @@ public class Neighbor {
 	
 	//this is the maximum spatial distance between each region which is used to normalize the spatial distance
 	//between 0 and 1.	
-	double maxspatialdistance = 630.1269428; 	// tamil nadu
-	double maxvecdistance = 47.58; // tn
+	
+	/*
+	For Tamil Nadu Maximum Spatial distance = 616.57, Vector distance = 47.58, nonWeighted Vector distance = 2233.18
+	For Andhra Pradesh Maximum Spatial distance = 824.78 Vector distance = 62.6, nonWeighted Vector distance = 706.99
+	For Himachal Pradesh Maximum Spatial distance = 245.8 Vector distance = 34.75 nonWeighted Vector distance = 1333.83
+	*/
+	
+	/*
+	 * For Tamil Nadu Mean Spatial Distance = 210.55 +/- 117.12 (327.67-93.43), Mean Vector distance = 11.37 +/- 6.74 (18.11-4.63)
+	 * For Andhra Pradesh Mean Spatial Distance = 321.94 +/- 216.35 (538.29-105.59), Mean Vector distance = 17.29 +/- 9.27 (26.56-8.02)
+	 * For Himachal Pradesh Mean Spatial Distance = 107.23 +/- 58.49 (165.72-48.74 ), Mean Vector distance = 9.32 +/- 5.66 (14.98-3.66)
+	*/
+	
+	double maxspatialdistance = 165.72;
+	double maxvecdistance = 14.98;
+	
+	
 
 	// constructor
 	public Neighbor(int r, int n, double size) {
@@ -36,7 +51,7 @@ public class Neighbor {
 	private static final int EARTH_RADIUS = 6371;
 	double distance;
 
-	String path = "./data/latlong.csv";
+	String path = "./data/hp/latlong.csv";
 	
 	CsvParser c1 = new CsvParser(path);
 	List<List<Double>> data = c1.csvReader();
@@ -95,14 +110,8 @@ public class Neighbor {
 			
 			vectordistance = calcvectordistance(getVector(this.region, this.n), getVector(i, this.n));
 			
-//			System.out.println("sppatialdistance is "+ spatialdistance + " vector distance"+ vectordistance);
-			
-//			System.out.println("Spatial Distance is: " + spatialdistance);
-//			System.out.println("Vector Distance is: "+ vectordistance);
 			distance = 0.5 * spatialdistance + 0.5 * vectordistance;
 			if(distance < this.neighborsize) {
-//				System.out.println(distance);
-//				System.out.println(neighborsize);
 				neighbor.add(i);
 			}
 		}
