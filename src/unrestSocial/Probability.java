@@ -58,6 +58,12 @@ public class Probability {
 		List<Integer>S = d1.neighborStatelist(this.neighborsize).get(0);		
 		List<Integer>I = d1.neighborStatelist(this.neighborsize).get(1);
 		List<Integer>R = d1.neighborStatelist(this.neighborsize).get(2);
+		
+		List<Double>pS = d1.neighborSharedBoundarylist(this.neighborsize).get(0);		
+		List<Double>pI = d1.neighborSharedBoundarylist(this.neighborsize).get(1);
+		List<Double>pR = d1.neighborSharedBoundarylist(this.neighborsize).get(2);	
+		
+		
 		List<Double> prob = new ArrayList<>();
 		double a_a = 0;
 		double a_b = 0;
@@ -65,8 +71,8 @@ public class Probability {
 		double change = 0;
 //		System.out.println("The regions current state is: "+ d1.regionCurrentstate());
 		if(d1.regionCurrentstate() == "S") {
-			Likelihood l1 = new Likelihood(this.i,S,this.n,this.w, this.neighborsize);
-			Likelihood l2 = new Likelihood(this.i,I,this.n, this.w, this.neighborsize);
+			Likelihood l1 = new Likelihood(this.i ,S, pS, this.n, this.w, this.neighborsize);
+			Likelihood l2 = new Likelihood(this.i ,I, pI, this.n, this.w, this.neighborsize);
 			same = l1.calc_l();
 			change = l2.calc_l();
 			a_a = same/(same + change);
@@ -75,8 +81,8 @@ public class Probability {
 			lsave = removeDuplicates(lsave);
 		}
 		if(d1.regionCurrentstate() == "I") {
-			Likelihood l1 = new Likelihood(this.i,I,this.n, this.w, this.neighborsize);
-			Likelihood l2 = new Likelihood(this.i,R,this.n, this.w, this.neighborsize);
+			Likelihood l1 = new Likelihood(this.i, I, pI, this.n, this.w, this.neighborsize);
+			Likelihood l2 = new Likelihood(this.i, R, pR, this.n, this.w, this.neighborsize);
 			same = l1.calc_l();
 			change = l2.calc_l();
 			a_a = same/(same + change);
@@ -85,8 +91,8 @@ public class Probability {
 			lsave = removeDuplicates(lsave);
 		}
 		if(d1.regionCurrentstate() == "R") {
-			Likelihood l1 = new Likelihood(this.i,R,this.n, this.w, this.neighborsize);
-			Likelihood l2 = new Likelihood(this.i,S,this.n, this.w, this.neighborsize);
+			Likelihood l1 = new Likelihood(this.i, R, pR, this.n, this.w, this.neighborsize);
+			Likelihood l2 = new Likelihood(this.i, S, pS, this.n, this.w, this.neighborsize);
 			same = l1.calc_l();
 			change = l2.calc_l();
 			a_a = same/(same + change);
@@ -96,6 +102,7 @@ public class Probability {
 		}
 		prob.add(a_a);
 		prob.add(a_b);
+//		System.out.println("Region " +this.i+ " in time step "+ this.n + " has neighbor "+ (S.size()+I.size()+R.size()));
 		return prob;
 	}
 	
@@ -143,7 +150,7 @@ public class Probability {
 				next_state = current_state;
 			}
 		}
-//		System.out.println("Current state for region " +this.i+ "in time step "+ this.n + " is "+ current_state);
+		System.out.println("Current state for region " +this.i+ "in time step "+ this.n + " is "+ current_state);
 //		System.out.println(lsave);
 		return next_state;
 	}

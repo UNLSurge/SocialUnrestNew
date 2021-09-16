@@ -2,6 +2,7 @@ package unrestSocial;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.lang.Math;
 //import java.util.Arrays;
 
 import unrestSocial.CsvParser;
@@ -22,8 +23,23 @@ public class Neighbor {
 	
 	//this is the maximum spatial distance between each region which is used to normalize the spatial distance
 	//between 0 and 1.	
-	double maxspatialdistance = 630.1269428; 	// tamil nadu
-	double maxvecdistance = 47.58; // tn
+	
+	/*
+	For Tamil Nadu Maximum Spatial distance = 616.57, Vector distance = 47.58, nonWeighted Vector distance = 2233.18
+	For Andhra Pradesh Maximum Spatial distance = 824.78 Vector distance = 62.6, nonWeighted Vector distance = 706.99
+	For Himachal Pradesh Maximum Spatial distance = 245.8 Vector distance = 34.75 nonWeighted Vector distance = 1333.83
+	*/
+	
+	/*
+	 * For Tamil Nadu Mean Spatial Distance = 210.55 +/- 117.12 (327.67-93.43), Mean Vector distance = 11.37 +/- 6.74 (18.11-4.63)
+	 * For Andhra Pradesh Mean Spatial Distance = 321.94 +/- 216.35 (538.29-105.59), Mean Vector distance = 17.29 +/- 9.27 (26.56-8.02)
+	 * For Himachal Pradesh Mean Spatial Distance = 107.23 +/- 58.49 (165.72-48.74 ), Mean Vector distance = 9.32 +/- 5.66 (14.98-3.66)
+	*/
+	
+	double maxspatialdistance = 327.67;
+	double maxvecdistance = 18.11;
+	
+	
 
 	// constructor
 	public Neighbor(int r, int n, double size) {
@@ -36,13 +52,43 @@ public class Neighbor {
 	private static final int EARTH_RADIUS = 6371;
 	double distance;
 
-	String path = "./data/latlong.csv";
 	
-	CsvParser c1 = new CsvParser(path);
-	List<List<Double>> data = c1.csvReader();
+	String district_name;
+	String path1 = "./data/hp/latlong.csv";
+	String path2 = "./data/hp/boundary.csv";
+	
+	CsvParser cr1 = new CsvParser(path1);
+	CsvParser cr2 = new CsvParser(path2);
+	List<List<Double>> data = cr1.csvReader();
+	List<List<Double>> shared = cr2.csvReader();
 	
 	CsvParser c2 = new CsvParser();
 	List<List<Double>> vector = c2.csvReader();
+	
+	public List<Integer> getShared(){
+		List<Integer> n = new ArrayList<>();
+		for(int j=0; j<this.shared.size(); j++) {
+			int value = this.shared.get(j).get(0).intValue();
+			
+			if ( value== this.region) {
+				int dest = this.shared.get(j).get(1).intValue();
+				n.add(dest);
+			}
+		}
+		return n;
+	}
+	
+	public List<Double> getSharedPercent(){
+		List<Double> n = new ArrayList<>();
+		for(int j=0; j<this.shared.size(); j++) {
+			int value = this.shared.get(j).get(0).intValue();
+			
+			if ( value== this.region) {
+				n.add(this.shared.get(j).get(2));
+			}
+		}
+		return n;
+	}
 
 	public List<Double> getVector(int i, int n){
 		int t = 48;
@@ -90,22 +136,65 @@ public class Neighbor {
 		double spatialdistance = 0;
 		double vectordistance = 0;
 		for(int i=0; i< this.data.size(); i++) {
+			
 			spatialdistance = haversine_km(this.data.get(this.region).get(0), this.data.get(this.region).get(1)
 					, this.data.get(i).get(0), this.data.get(i).get(1));
 			
 			vectordistance = calcvectordistance(getVector(this.region, this.n), getVector(i, this.n));
 			
-//			System.out.println("sppatialdistance is "+ spatialdistance + " vector distance"+ vectordistance);
-			
-//			System.out.println("Spatial Distance is: " + spatialdistance);
-//			System.out.println("Vector Distance is: "+ vectordistance);
 			distance = 0.5 * spatialdistance + 0.5 * vectordistance;
+			
+//			System.out.println("Distance From region: " + this.region + " to " + i +  " sd = " + spatialdistance + " vd = " + vectordistance + " td = " + distance);
 			if(distance < this.neighborsize) {
-//				System.out.println(distance);
-//				System.out.println(neighborsize);
 				neighbor.add(i);
 			}
 		}
 		return neighbor;
+	}
+	
+	public List<Double> getInfluence(){
+		List<Integer> neighbor = new ArrayList<>();
+		List<Integer> shared = new ArrayList<>();
+		List<Double> percent = new ArrayList<>();
+//		List<List<String>> influence = new ArrayList<>();
+		List<Double> infvalue = new ArrayList<>();
+		
+//		List<String> temp1 = new ArrayList<>();
+//		List<String> temp2 = new ArrayList<>();
+		
+		neighbor = this.findNeighbor();
+		shared = this.getShared();
+		percent = this.getSharedPercent();
+		for(int i=0; i<neighbor.size(); i++) {
+			int n1 = neighbor.get(i);
+			if(shared.contains(n1)) {
+				int index = shared.indexOf(n1);
+				double p = percent.get(index);
+				infvalue.add(1+p/100);
+			}
+			else {
+				infvalue.add(1.0);
+			}
+		}
+		
+//		for(Integer i: neighbor) {
+//			temp1.add(String.valueOf(i));
+//		}
+//		
+//		for(Double i: infvalue) {
+//			temp2.add(String.valueOf(i));
+//		}
+		
+		
+		return infvalue;
+	}
+	
+	public static void main(String[] args) {
+	Neighbor n1 = new Neighbor(0, 5, 0.5);
+	System.out.println(n1.data);
+//	System.out.println(n1.getShared());
+//	System.out.println(n1.getSharedPercent());
+	System.out.println(n1.findNeighbor());
+//	System.out.print(n1.returnNeighbor());
 	}
 }

@@ -7,7 +7,7 @@
 									
 		/>
 				<parameter name="neighborhood" displayName="Neighborhood Size" type="double" 
-						defaultValue="300" 
+						defaultValue="0.5" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
 									

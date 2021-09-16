@@ -30,3 +30,10 @@ Click on the Edit... button, this will further open the styling control panel.
 
 Choose the attribute next state.
 
+Simulations can be done for three different admin-states of India - the process of changing 
+from one to another admin-state is not automated therfore following things should be considered while changing
+	1. Change default path in the CsvParser.java 
+	2. Change number of regions in UnrestBuilder.java
+	3. Change number of regions in Determinestate.java
+	4. Change districts name string and latlong path in Region.java
+	5. Change latlong path and max distance values in Neighbor.java

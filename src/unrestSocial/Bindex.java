@@ -38,7 +38,6 @@ public class Bindex {
 	//method to calculate cosine similarity between two vectors
 	public double cosine_sim(List<Double>l1, List<Double> l2) {
 			
-			
 			double dotProduct = 0;
 			double norm1 = 0;
 			double norm2 = 0;
@@ -85,9 +84,9 @@ public class Bindex {
 		return result;
 	}
 	
-//	public static void main(String[] args) {
-//		Bindex bex1 = new Bindex(0, 1, 0);
-//		System.out.println(bex1.calc_b());
-//		System.out.println(bex1.getVector(0, 0));
-//	}
+	public static void main(String[] args) {
+		Bindex bex1 = new Bindex(0, 1, 0);
+		System.out.println(bex1.calc_b());
+		System.out.println(bex1.getVector(31, 0));
+	}
 }

@@ -41,8 +41,6 @@ public class Determinestate {
 	public List<Double> giveEventCount(int r){
 		int t = 48;
 		List<Double> region = new ArrayList<>();
-//		System.out.println("i" + Integer.toString(i));
-//		System.out.println("n" + Integer.toString(n));
 		for(int i=0; i<t; i++) {
 			int index = (r)*t + (i);
 			double eventcount = this.data.get(index).get(6);
@@ -118,7 +116,9 @@ public class Determinestate {
 		
 		List<List<String>> fullstate = new ArrayList<>();
 		
-		fullstate = giveFullstate(32);
+//		fullstate = giveFullstate(32); // Tamil Nadu
+		fullstate = giveFullstate(12); // Himachal Pradesh
+//		fullstate = giveFullstate(13); // Andhra Pradesh 
 		List<List<Integer>> state = new ArrayList<>();
 		List<Integer> stateS = new ArrayList<>();
 		List<Integer> stateI = new ArrayList<>();
@@ -187,6 +187,46 @@ public class Determinestate {
 		return neighstate;
 	}
 	
+	public List<List<Double>> neighborSharedBoundarylist(double ns){
+		Neighbor nb = new Neighbor(this.regions, this.current,  ns);
+		List<Integer> neigh = new ArrayList<>();
+		List<Double> percent = new ArrayList<>();
+		neigh = nb.findNeighbor();
+		percent = nb.getInfluence();
+		
+//		System.out.println(neigh.size());
+//		System.out.println(neigh);
+//
+//		System.out.println(percent.size());
+//		System.out.println(percent);
+		
+		List<List<Integer>> state = new ArrayList<>();
+		List<List<Double>> sharedpercent = new ArrayList<>();
+		List<Double> sharedS = new ArrayList<>();
+		List<Double> sharedI = new ArrayList<>();
+		List<Double> sharedR = new ArrayList<>();
+		
+		state = determineStatelist();
+//		System.out.println(state.get(0));
+		for(int i=0; i<neigh.size(); i++) {
+			int current = neigh.get(i);
+			if(state.get(0).contains(current)){
+				sharedS.add(percent.get(i));
+			}
+			if(state.get(1).contains(current)){
+				sharedI.add(percent.get(i));
+			}
+			if(state.get(2).contains(current)){
+				sharedR.add(percent.get(i));
+			}
+		}
+		sharedpercent.add(sharedS);
+		sharedpercent.add(sharedI);
+		sharedpercent.add(sharedR);
+		
+		return sharedpercent;
+	}
+	
 	/*
 	 * method to get a the current state the region is in.
 	 * 
@@ -215,11 +255,20 @@ public class Determinestate {
 	}		
 //	public static void main(String[] args) {
 //		Determinestate d1 = new Determinestate(0, 0);
-//		System.out.println(d1.regionCurrentstate());
+//		for(int i=0; i<13; i++) {
+//			System.out.println(d1.giveEventCount(i));
+//		}
+//		System.out.println(d1.neighborSharedBoundarylist(0.5).get(0).size());
+
+		
+//		for (Integer i: d1.neighborStatelist(0.5).get(1)) {
+//			System.out.println(i);
+//
+//		}
+//		System.out.println(d1.neighborStatelist(0.5).get(1));
 //		System.out.println(d1.giveFullstate(3));
 //		d1.giveState(0);
 //		System.out.println(d1.giveState(1));
 //		System.out.println(d1.giveEventCount(0));
-//	}
 }
 

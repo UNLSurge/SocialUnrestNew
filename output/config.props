@@ -1,8 +1,8 @@
-model.archive = /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/complete_model.jar
+model.archive = /Users/aadhikari/Documents/Simulation/Model/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/complete_model.jar
 batch.params.file = scenario.rs/batch_params.xml
 ssh.key_dir = /Users/aadhikari/.ssh
 poll.frequency = 60.0
-model.output = /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output
+model.output = /Users/aadhikari/Documents/Simulation/Model/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output
 
 vm.arguments = 
 local.0.instances = 2
