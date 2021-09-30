@@ -1,4 +1,549 @@
-FATAL [Thread-2] 2021-07-13 23:26:28,893 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+INFO  [Thread-0] 2021-09-14 00:35:23,907 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 43 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:23,959 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 43 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:23,959 repast.simphony.batch.ssh.LocalSession - Current state for region 12in time step 43 is I
+INFO  [Thread-0] 2021-09-14 00:35:23,967 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:23,997 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,029 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 43 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,031 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,031 repast.simphony.batch.ssh.LocalSession - Current state for region 18in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,061 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 43 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,092 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 43 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,092 repast.simphony.batch.ssh.LocalSession - Current state for region 10in time step 43 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,107 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:24,145 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:24,186 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:24,186 repast.simphony.batch.ssh.LocalSession - Current state for region 14in time step 47 is S
+INFO  [Thread-0] 2021-09-14 00:35:24,247 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,249 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,267 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,268 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,294 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,294 repast.simphony.batch.ssh.LocalSession - Current state for region 27in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,299 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,299 repast.simphony.batch.ssh.LocalSession - Current state for region 26in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,352 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,354 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,376 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,385 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,402 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:24,402 repast.simphony.batch.ssh.LocalSession - Current state for region 27in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,417 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,417 repast.simphony.batch.ssh.LocalSession - Current state for region 1in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,471 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:24,482 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,513 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:24,515 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,550 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,550 repast.simphony.batch.ssh.LocalSession - Current state for region 24in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,554 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:24,554 repast.simphony.batch.ssh.LocalSession - Current state for region 14in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,631 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,665 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,703 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:24,703 repast.simphony.batch.ssh.LocalSession - Current state for region 5in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,780 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:24,819 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:24,862 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:24,862 repast.simphony.batch.ssh.LocalSession - Current state for region 7in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:24,938 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:24,977 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:25,020 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:25,020 repast.simphony.batch.ssh.LocalSession - Current state for region 31in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:25,138 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 44 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:25,217 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 44 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:25,300 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 44 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:25,300 repast.simphony.batch.ssh.LocalSession - Current state for region 0in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:25,370 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:25,400 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:25,432 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:25,432 repast.simphony.batch.ssh.LocalSession - Current state for region 4in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:25,506 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:25,544 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:25,590 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:25,590 repast.simphony.batch.ssh.LocalSession - Current state for region 6in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:25,658 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:25,690 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:25,726 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:25,726 repast.simphony.batch.ssh.LocalSession - Current state for region 17in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:25,784 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:25,807 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:25,829 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:25,829 repast.simphony.batch.ssh.LocalSession - Current state for region 20in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:25,883 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:25,902 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:25,925 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:25,925 repast.simphony.batch.ssh.LocalSession - Current state for region 22in time step 44 is S
+INFO  [Thread-0] 2021-09-14 00:35:25,985 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:26,011 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:26,046 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:26,046 repast.simphony.batch.ssh.LocalSession - Current state for region 1in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:26,112 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:26,143 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:26,177 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:26,177 repast.simphony.batch.ssh.LocalSession - Current state for region 11in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:26,251 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:26,289 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:26,331 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:26,331 repast.simphony.batch.ssh.LocalSession - Current state for region 10in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:26,394 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:26,415 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:26,438 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:26,438 repast.simphony.batch.ssh.LocalSession - Current state for region 8in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:26,506 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:26,547 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:26,591 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:26,591 repast.simphony.batch.ssh.LocalSession - Current state for region 30in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:26,667 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:26,707 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:26,749 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:26,749 repast.simphony.batch.ssh.LocalSession - Current state for region 18in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:26,850 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 44 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:26,914 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 44 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:26,979 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 44 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:26,979 repast.simphony.batch.ssh.LocalSession - Current state for region 9in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:27,048 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:27,079 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:27,112 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:27,112 repast.simphony.batch.ssh.LocalSession - Current state for region 2in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:27,189 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:27,228 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:27,271 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:27,271 repast.simphony.batch.ssh.LocalSession - Current state for region 25in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:27,380 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 44 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:27,452 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 44 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:27,529 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 44 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:27,529 repast.simphony.batch.ssh.LocalSession - Current state for region 13in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:27,592 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:27,615 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:27,646 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:27,646 repast.simphony.batch.ssh.LocalSession - Current state for region 29in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:27,720 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:27,758 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:27,800 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 44 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:27,801 repast.simphony.batch.ssh.LocalSession - Current state for region 12in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:27,907 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 44 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:27,978 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 44 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:28,053 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 44 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:28,053 repast.simphony.batch.ssh.LocalSession - Current state for region 23in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:28,121 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,152 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,185 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,185 repast.simphony.batch.ssh.LocalSession - Current state for region 24in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:28,249 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,279 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,313 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,313 repast.simphony.batch.ssh.LocalSession - Current state for region 28in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:28,408 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 44 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:28,472 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 44 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:28,542 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 44 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:28,542 repast.simphony.batch.ssh.LocalSession - Current state for region 15in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:28,611 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,642 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,675 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 44 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:28,675 repast.simphony.batch.ssh.LocalSession - Current state for region 21in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:28,748 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:28,787 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:28,828 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 44 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:28,828 repast.simphony.batch.ssh.LocalSession - Current state for region 19in time step 44 is I
+INFO  [Thread-0] 2021-09-14 00:35:28,916 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 44 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:28,972 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 44 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:29,029 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 44 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:29,029 repast.simphony.batch.ssh.LocalSession - Current state for region 3in time step 44 is S
+INFO  [Thread-0] 2021-09-14 00:35:29,092 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:29,114 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:29,136 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 44 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:29,136 repast.simphony.batch.ssh.LocalSession - Current state for region 16in time step 44 is R
+INFO  [Thread-0] 2021-09-14 00:35:29,291 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:29,319 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:29,350 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:29,350 repast.simphony.batch.ssh.LocalSession - Current state for region 1in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:29,422 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:29,462 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:29,510 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:29,510 repast.simphony.batch.ssh.LocalSession - Current state for region 10in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:29,638 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 45 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:29,729 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 45 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:29,819 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 45 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:29,819 repast.simphony.batch.ssh.LocalSession - Current state for region 0in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:29,896 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:29,935 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:29,979 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:29,979 repast.simphony.batch.ssh.LocalSession - Current state for region 6in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:30,063 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:30,111 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:30,167 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:30,167 repast.simphony.batch.ssh.LocalSession - Current state for region 7in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:30,236 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:30,266 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:30,301 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:30,301 repast.simphony.batch.ssh.LocalSession - Current state for region 24in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:30,365 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:30,396 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:30,430 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:30,430 repast.simphony.batch.ssh.LocalSession - Current state for region 22in time step 45 is S
+INFO  [Thread-0] 2021-09-14 00:35:30,533 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 45 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:30,610 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 45 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:30,686 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 45 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:30,686 repast.simphony.batch.ssh.LocalSession - Current state for region 13in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:30,779 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 45 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:30,834 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 45 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:30,890 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 45 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:30,890 repast.simphony.batch.ssh.LocalSession - Current state for region 3in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:30,975 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:31,028 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:31,079 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:31,079 repast.simphony.batch.ssh.LocalSession - Current state for region 30in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:31,140 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,160 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,181 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,181 repast.simphony.batch.ssh.LocalSession - Current state for region 16in time step 45 is S
+INFO  [Thread-0] 2021-09-14 00:35:31,233 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,253 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,279 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,279 repast.simphony.batch.ssh.LocalSession - Current state for region 8in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:31,346 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:31,390 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:31,432 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:31,432 repast.simphony.batch.ssh.LocalSession - Current state for region 25in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:31,494 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,517 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,544 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:31,544 repast.simphony.batch.ssh.LocalSession - Current state for region 29in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:31,606 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:31,637 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:31,672 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:31,672 repast.simphony.batch.ssh.LocalSession - Current state for region 2in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:31,771 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 45 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:31,846 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 45 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:31,920 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 45 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:31,920 repast.simphony.batch.ssh.LocalSession - Current state for region 23in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:31,982 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:32,006 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:32,029 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:32,029 repast.simphony.batch.ssh.LocalSession - Current state for region 14in time step 45 is R
+INFO  [Thread-0] 2021-09-14 00:35:32,122 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 45 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:32,185 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 45 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:32,257 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 45 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:32,257 repast.simphony.batch.ssh.LocalSession - Current state for region 9in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:32,328 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:32,358 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:32,393 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:32,393 repast.simphony.batch.ssh.LocalSession - Current state for region 4in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:32,451 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:32,472 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:32,498 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:32,498 repast.simphony.batch.ssh.LocalSession - Current state for region 26in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:32,557 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:32,588 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:32,628 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:32,628 repast.simphony.batch.ssh.LocalSession - Current state for region 17in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:32,702 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:32,740 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:32,782 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:32,782 repast.simphony.batch.ssh.LocalSession - Current state for region 19in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:32,841 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:32,862 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:32,886 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:32,886 repast.simphony.batch.ssh.LocalSession - Current state for region 20in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:32,959 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:33,008 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:33,062 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 45 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:33,062 repast.simphony.batch.ssh.LocalSession - Current state for region 12in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:33,161 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 45 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:33,222 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 45 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:33,289 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 45 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:33,289 repast.simphony.batch.ssh.LocalSession - Current state for region 15in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:33,356 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:33,386 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:33,420 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:33,420 repast.simphony.batch.ssh.LocalSession - Current state for region 5in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:33,494 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,535 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,578 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,578 repast.simphony.batch.ssh.LocalSession - Current state for region 31in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:33,644 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,676 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,709 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,710 repast.simphony.batch.ssh.LocalSession - Current state for region 11in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:33,780 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,818 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,866 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 45 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:33,866 repast.simphony.batch.ssh.LocalSession - Current state for region 18in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:33,935 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:33,966 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,000 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,000 repast.simphony.batch.ssh.LocalSession - Current state for region 21in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:34,066 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,097 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,131 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 45 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,131 repast.simphony.batch.ssh.LocalSession - Current state for region 28in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:34,188 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:34,209 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:34,232 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 45 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:34,232 repast.simphony.batch.ssh.LocalSession - Current state for region 27in time step 45 is I
+INFO  [Thread-0] 2021-09-14 00:35:34,401 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 46 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:34,454 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 46 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:34,511 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 46 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:34,512 repast.simphony.batch.ssh.LocalSession - Current state for region 3in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:34,574 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:34,593 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:34,615 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:34,615 repast.simphony.batch.ssh.LocalSession - Current state for region 29in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:34,691 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:34,739 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:34,787 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:34,787 repast.simphony.batch.ssh.LocalSession - Current state for region 7in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:34,849 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,882 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,916 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:34,916 repast.simphony.batch.ssh.LocalSession - Current state for region 1in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:35,008 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 46 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:35,077 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 46 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:35,142 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 46 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:35,142 repast.simphony.batch.ssh.LocalSession - Current state for region 9in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:35,205 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,226 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,248 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,248 repast.simphony.batch.ssh.LocalSession - Current state for region 26in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:35,324 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:35,374 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:35,424 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:35,424 repast.simphony.batch.ssh.LocalSession - Current state for region 30in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:35,487 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,509 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,536 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,536 repast.simphony.batch.ssh.LocalSession - Current state for region 27in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:35,587 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,607 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,630 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:35,630 repast.simphony.batch.ssh.LocalSession - Current state for region 8in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:35,732 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 46 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:35,802 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 46 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:35,879 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 46 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:35,879 repast.simphony.batch.ssh.LocalSession - Current state for region 23in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:35,987 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 46 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:36,056 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 46 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:36,129 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 46 has neighbor 7
+INFO  [Thread-0] 2021-09-14 00:35:36,129 repast.simphony.batch.ssh.LocalSession - Current state for region 13in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:36,197 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:36,228 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:36,261 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:36,261 repast.simphony.batch.ssh.LocalSession - Current state for region 5in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:36,360 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 46 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:36,426 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 46 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:36,494 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 46 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:36,494 repast.simphony.batch.ssh.LocalSession - Current state for region 15in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:36,570 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:36,609 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:36,651 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:36,652 repast.simphony.batch.ssh.LocalSession - Current state for region 14in time step 46 is S
+INFO  [Thread-0] 2021-09-14 00:35:36,731 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:36,770 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:36,813 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:36,813 repast.simphony.batch.ssh.LocalSession - Current state for region 10in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:36,882 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:36,914 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:36,947 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:36,947 repast.simphony.batch.ssh.LocalSession - Current state for region 4in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:37,005 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:37,025 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:37,051 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:37,051 repast.simphony.batch.ssh.LocalSession - Current state for region 22in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:37,110 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:37,136 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:37,160 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:37,160 repast.simphony.batch.ssh.LocalSession - Current state for region 16in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:37,293 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 46 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:37,373 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 46 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:37,455 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 46 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:37,455 repast.simphony.batch.ssh.LocalSession - Current state for region 0in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:37,542 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:37,595 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:37,644 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 46 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:37,644 repast.simphony.batch.ssh.LocalSession - Current state for region 12in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:37,722 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:37,759 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:37,801 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:37,801 repast.simphony.batch.ssh.LocalSession - Current state for region 18in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:37,866 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:37,899 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:37,933 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:37,933 repast.simphony.batch.ssh.LocalSession - Current state for region 19in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:37,999 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,031 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,065 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,065 repast.simphony.batch.ssh.LocalSession - Current state for region 21in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:38,129 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,160 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,195 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,195 repast.simphony.batch.ssh.LocalSession - Current state for region 2in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:38,261 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,292 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,326 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,326 repast.simphony.batch.ssh.LocalSession - Current state for region 17in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:38,398 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,429 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,464 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,464 repast.simphony.batch.ssh.LocalSession - Current state for region 28in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:38,530 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,561 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,595 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:38,595 repast.simphony.batch.ssh.LocalSession - Current state for region 24in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:38,665 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:38,706 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:38,748 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:38,748 repast.simphony.batch.ssh.LocalSession - Current state for region 25in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:38,826 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:38,866 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:38,910 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:38,910 repast.simphony.batch.ssh.LocalSession - Current state for region 6in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:38,975 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:39,007 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:39,040 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 46 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:39,040 repast.simphony.batch.ssh.LocalSession - Current state for region 11in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:39,094 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:39,114 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:39,136 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 46 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:39,136 repast.simphony.batch.ssh.LocalSession - Current state for region 20in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:39,207 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:39,248 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:39,290 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 46 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:39,290 repast.simphony.batch.ssh.LocalSession - Current state for region 31in time step 46 is I
+INFO  [Thread-0] 2021-09-14 00:35:39,454 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:39,492 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:39,533 repast.simphony.batch.ssh.LocalSession - Region 25 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:39,533 repast.simphony.batch.ssh.LocalSession - Current state for region 25in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:39,604 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:39,635 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:39,669 repast.simphony.batch.ssh.LocalSession - Region 5 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:39,669 repast.simphony.batch.ssh.LocalSession - Current state for region 5in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:39,741 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:39,780 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:39,823 repast.simphony.batch.ssh.LocalSession - Region 12 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:39,823 repast.simphony.batch.ssh.LocalSession - Current state for region 12in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:39,920 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:39,982 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:40,054 repast.simphony.batch.ssh.LocalSession - Region 23 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:40,054 repast.simphony.batch.ssh.LocalSession - Current state for region 23in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:40,123 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:40,154 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:40,185 repast.simphony.batch.ssh.LocalSession - Region 19 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:40,185 repast.simphony.batch.ssh.LocalSession - Current state for region 19in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:40,243 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:40,263 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:40,285 repast.simphony.batch.ssh.LocalSession - Region 26 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:40,285 repast.simphony.batch.ssh.LocalSession - Current state for region 26in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:40,352 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:40,391 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:40,437 repast.simphony.batch.ssh.LocalSession - Region 14 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:40,437 repast.simphony.batch.ssh.LocalSession - Current state for region 14in time step 47 is S
+INFO  [Thread-0] 2021-09-14 00:35:40,502 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,534 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,568 repast.simphony.batch.ssh.LocalSession - Region 28 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,568 repast.simphony.batch.ssh.LocalSession - Current state for region 28in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:40,632 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,663 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,698 repast.simphony.batch.ssh.LocalSession - Region 21 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,698 repast.simphony.batch.ssh.LocalSession - Current state for region 21in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:40,765 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,796 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,834 repast.simphony.batch.ssh.LocalSession - Region 1 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:40,834 repast.simphony.batch.ssh.LocalSession - Current state for region 1in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:40,890 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:40,914 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:40,935 repast.simphony.batch.ssh.LocalSession - Region 16 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:40,935 repast.simphony.batch.ssh.LocalSession - Current state for region 16in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:40,988 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:41,009 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:41,030 repast.simphony.batch.ssh.LocalSession - Region 20 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:41,030 repast.simphony.batch.ssh.LocalSession - Current state for region 20in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:41,088 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:41,119 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:41,154 repast.simphony.batch.ssh.LocalSession - Region 2 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:41,154 repast.simphony.batch.ssh.LocalSession - Current state for region 2in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:41,251 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:41,316 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:41,383 repast.simphony.batch.ssh.LocalSession - Region 13 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:41,384 repast.simphony.batch.ssh.LocalSession - Current state for region 13in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:41,466 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:41,514 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:41,565 repast.simphony.batch.ssh.LocalSession - Region 30 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:41,565 repast.simphony.batch.ssh.LocalSession - Current state for region 30in time step 47 is S
+INFO  [Thread-0] 2021-09-14 00:35:41,646 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:41,686 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:41,729 repast.simphony.batch.ssh.LocalSession - Region 31 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:41,729 repast.simphony.batch.ssh.LocalSession - Current state for region 31in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:41,795 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:41,826 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:41,860 repast.simphony.batch.ssh.LocalSession - Region 22 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:41,860 repast.simphony.batch.ssh.LocalSession - Current state for region 22in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:41,920 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:41,948 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:41,983 repast.simphony.batch.ssh.LocalSession - Region 7 in time step 47 has neighbor 4
+INFO  [Thread-0] 2021-09-14 00:35:41,983 repast.simphony.batch.ssh.LocalSession - Current state for region 7in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:42,049 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:42,080 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:42,115 repast.simphony.batch.ssh.LocalSession - Region 10 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:42,115 repast.simphony.batch.ssh.LocalSession - Current state for region 10in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:42,210 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:42,272 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:42,336 repast.simphony.batch.ssh.LocalSession - Region 9 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:42,336 repast.simphony.batch.ssh.LocalSession - Current state for region 9in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:42,436 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 47 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:42,502 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 47 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:42,568 repast.simphony.batch.ssh.LocalSession - Region 0 in time step 47 has neighbor 9
+INFO  [Thread-0] 2021-09-14 00:35:42,569 repast.simphony.batch.ssh.LocalSession - Current state for region 0in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:42,667 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:42,730 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:42,797 repast.simphony.batch.ssh.LocalSession - Region 15 in time step 47 has neighbor 6
+INFO  [Thread-0] 2021-09-14 00:35:42,797 repast.simphony.batch.ssh.LocalSession - Current state for region 15in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:42,888 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 47 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:42,942 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 47 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:43,002 repast.simphony.batch.ssh.LocalSession - Region 3 in time step 47 has neighbor 5
+INFO  [Thread-0] 2021-09-14 00:35:43,002 repast.simphony.batch.ssh.LocalSession - Current state for region 3in time step 47 is S
+INFO  [Thread-0] 2021-09-14 00:35:43,074 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,105 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,139 repast.simphony.batch.ssh.LocalSession - Region 4 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,139 repast.simphony.batch.ssh.LocalSession - Current state for region 4in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:43,211 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:43,250 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:43,294 repast.simphony.batch.ssh.LocalSession - Region 11 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:43,294 repast.simphony.batch.ssh.LocalSession - Current state for region 11in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:43,362 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,393 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,427 repast.simphony.batch.ssh.LocalSession - Region 18 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,427 repast.simphony.batch.ssh.LocalSession - Current state for region 18in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:43,493 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,524 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,557 repast.simphony.batch.ssh.LocalSession - Region 24 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:43,557 repast.simphony.batch.ssh.LocalSession - Current state for region 24in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:43,627 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:43,665 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:43,707 repast.simphony.batch.ssh.LocalSession - Region 6 in time step 47 has neighbor 3
+INFO  [Thread-0] 2021-09-14 00:35:43,707 repast.simphony.batch.ssh.LocalSession - Current state for region 6in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:43,769 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:43,789 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:43,811 repast.simphony.batch.ssh.LocalSession - Region 29 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:43,811 repast.simphony.batch.ssh.LocalSession - Current state for region 29in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:43,862 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:43,882 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:43,904 repast.simphony.batch.ssh.LocalSession - Region 8 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:43,904 repast.simphony.batch.ssh.LocalSession - Current state for region 8in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:43,955 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:43,976 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:44,001 repast.simphony.batch.ssh.LocalSession - Region 27 in time step 47 has neighbor 1
+INFO  [Thread-0] 2021-09-14 00:35:44,001 repast.simphony.batch.ssh.LocalSession - Current state for region 27in time step 47 is I
+INFO  [Thread-0] 2021-09-14 00:35:44,060 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:44,098 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:44,134 repast.simphony.batch.ssh.LocalSession - Region 17 in time step 47 has neighbor 2
+INFO  [Thread-0] 2021-09-14 00:35:44,134 repast.simphony.batch.ssh.LocalSession - Current state for region 17in time step 47 is I
+INFO  [pool-2-thread-1] 2021-09-14 00:35:52,826 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/simphony_model_1631595530183 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-1] 2021-09-14 00:35:52,827 repast.simphony.batch.ssh.SessionsDriver - Run Time: 37.0090
+INFO  [SwingWorker-pool-1-thread-1] 2021-09-14 00:35:52,848 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in /var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/simphony_model_1631595530183
+INFO  [SwingWorker-pool-1-thread-1] 2021-09-14 00:35:52,864 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into /Users/aadhikari/Documents/Simulation/Model/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output
+INFO  [SwingWorker-pool-1-thread-1] 2021-09-14 00:35:52,897 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0012
+INFO  [SwingWorker-pool-1-thread-1] 2021-09-14 00:35:52,898 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 37.0453
+FATAL [Thread-2] 2021-09-15 10:45:27,515 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
 Current tick (0.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
@@ -8,27 +553,24 @@ java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
+	at java.base/java.lang.Thread.run(Thread.java:844)
 Caused by: java.lang.reflect.InvocationTargetException
 	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
 	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1536
+Caused by: java.lang.IndexOutOfBoundsException: Index 11 out-of-bounds for length 11
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Tsim.getVector(Tsim.java:39)
-	at unrestSocial.Tsim.similarity(Tsim.java:77)
-	at unrestSocial.Tsim.calc_t(Tsim.java:93)
-	at unrestSocial.Likelihood.likelihood(Likelihood.java:40)
-	at unrestSocial.Likelihood.calc_l(Likelihood.java:49)
-	at unrestSocial.Probability.calcProbability(Probability.java:72)
-	at unrestSocial.Region.next(Region.java:153)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:440)
+	at unrestSocial.Likelihood.likelihood(Likelihood.java:55)
+	at unrestSocial.Likelihood.calc_l(Likelihood.java:63)
+	at unrestSocial.Probability.calcProbability(Probability.java:77)
+	at unrestSocial.Region.next(Region.java:172)
 	... 10 more
-FATAL [Thread-2] 2021-07-13 23:32:46,450 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+FATAL [Thread-2] 2021-09-15 12:27:01,487 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
 Current tick (0.0)
 java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
@@ -38,581 +580,19 @@ java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
 	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
+	at java.base/java.lang.Thread.run(Thread.java:844)
 Caused by: java.lang.reflect.InvocationTargetException
 	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
 	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1536
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Bindex.getVector(Bindex.java:34)
-	at unrestSocial.Bindex.calc_sim(Bindex.java:73)
-	at unrestSocial.Bindex.calc_b(Bindex.java:81)
-	at unrestSocial.Likelihood.likelihood(Likelihood.java:40)
-	at unrestSocial.Likelihood.calc_l(Likelihood.java:49)
-	at unrestSocial.Probability.calcProbability(Probability.java:72)
-	at unrestSocial.Region.next(Region.java:153)
+Caused by: java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at unrestSocial.CsvParser.csvReader(CsvParser.java:43)
+	at unrestSocial.Neighbor.<init>(Neighbor.java:63)
+	at unrestSocial.Determinestate.neighborStatelist(Determinestate.java:155)
+	at unrestSocial.Probability.calcProbability(Probability.java:58)
+	at unrestSocial.Region.next(Region.java:172)
 	... 10 more
-FATAL [Thread-2] 2021-07-13 23:34:56,884 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
-Current tick (0.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.reflect.InvocationTargetException
-	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1536
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Bindex.getVector(Bindex.java:34)
-	at unrestSocial.Bindex.calc_sim(Bindex.java:73)
-	at unrestSocial.Bindex.calc_b(Bindex.java:81)
-	at unrestSocial.Likelihood.likelihood(Likelihood.java:40)
-	at unrestSocial.Likelihood.calc_l(Likelihood.java:49)
-	at unrestSocial.Probability.calcProbability(Probability.java:72)
-	at unrestSocial.Region.next(Region.java:153)
-	... 10 more
-FATAL [Thread-2] 2021-07-13 23:35:43,546 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
-Current tick (0.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.reflect.InvocationTargetException
-	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1536
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Bindex.get_intensity(Bindex.java:65)
-	at unrestSocial.Bindex.calc_b(Bindex.java:81)
-	at unrestSocial.Likelihood.likelihood(Likelihood.java:40)
-	at unrestSocial.Likelihood.calc_l(Likelihood.java:49)
-	at unrestSocial.Probability.calcProbability(Probability.java:72)
-	at unrestSocial.Region.next(Region.java:153)
-	... 10 more
-FATAL [Thread-2] 2021-07-13 23:37:11,258 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
-Current tick (0.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.reflect.InvocationTargetException
-	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1536
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Tsim.getVector(Tsim.java:36)
-	at unrestSocial.Tsim.aplha(Tsim.java:63)
-	at unrestSocial.Tsim.calc_t(Tsim.java:91)
-	at unrestSocial.Likelihood.likelihood(Likelihood.java:40)
-	at unrestSocial.Likelihood.calc_l(Likelihood.java:49)
-	at unrestSocial.Probability.calcProbability(Probability.java:81)
-	at unrestSocial.Region.next(Region.java:153)
-	... 10 more
-FATAL [Thread-2] 2021-07-13 23:40:02,231 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
-Current tick (0.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.reflect.InvocationTargetException
-	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1536
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Tsim.getVector(Tsim.java:36)
-	at unrestSocial.Tsim.similarity(Tsim.java:76)
-	at unrestSocial.Tsim.calc_t(Tsim.java:92)
-	at unrestSocial.Likelihood.likelihood(Likelihood.java:40)
-	at unrestSocial.Likelihood.calc_l(Likelihood.java:49)
-	at unrestSocial.Probability.calcProbability(Probability.java:72)
-	at unrestSocial.Region.next(Region.java:153)
-	... 10 more
-FATAL [Thread-2] 2021-07-17 13:14:10,201 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
-Current tick (0.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.reflect.InvocationTargetException
-	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index 7 out of bounds for length 7
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Bindex.get_intensity(Bindex.java:65)
-	at unrestSocial.Bindex.calc_b(Bindex.java:81)
-	at unrestSocial.Likelihood.likelihood(Likelihood.java:40)
-	at unrestSocial.Likelihood.calc_l(Likelihood.java:49)
-	at unrestSocial.Probability.calcProbability(Probability.java:71)
-	at unrestSocial.Region.next(Region.java:153)
-	... 10 more
-FATAL [Thread-2] 2021-07-17 16:19:46,387 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
-Current tick (0.0)
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:336)
-	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: java.lang.reflect.InvocationTargetException
-	at unrestSocial.Region$$FastClassByCGLIB$$9ada5fc8.invoke(<generated>)
-	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-	... 7 more
-Caused by: java.lang.IndexOutOfBoundsException: Index 1344 out of bounds for length 32
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-	at java.base/java.util.Objects.checkIndex(Objects.java:359)
-	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at unrestSocial.Neighbor.getVector(Neighbor.java:55)
-	at unrestSocial.Neighbor.findNeighbor(Neighbor.java:96)
-	at unrestSocial.Determinestate.neighborStatelist(Determinestate.java:157)
-	at unrestSocial.Probability.calcProbability(Probability.java:49)
-	at unrestSocial.Region.next(Region.java:153)
-	... 10 more
-ERROR [AWT-EventQueue-0] 2021-07-17 17:15:58,888 repast.simphony.ui.RSApplication - Scenario Load Error
-repast.simphony.scenario.ScenarioLoadException: Schema violation when setting parameter 'run' to 1.0
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:229)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-Caused by: repast.simphony.parameter.IllegalParameterException: Schema violation when setting parameter 'run' to 1.0
-	at repast.simphony.parameter.DefaultParameters.setValue(DefaultParameters.java:364)
-	at repast.simphony.parameter.DefaultParameters.<init>(DefaultParameters.java:55)
-	at repast.simphony.parameter.ParametersCreator.createParameters(ParametersCreator.java:160)
-	at repast.simphony.parameter.ParametersParser.getParameters(ParametersParser.java:60)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:175)
-	... 21 more
-INFO  [AWT-EventQueue-0] 2021-07-18 12:16:19,592 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-18 12:16:19,640 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-WARN  [AWT-EventQueue-0] 2021-07-18 15:55:34,628 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_1.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_1.xml (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-WARN  [AWT-EventQueue-0] 2021-07-18 15:55:34,643 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-WARN  [AWT-EventQueue-0] 2021-07-18 16:34:48,773 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_1.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_1.xml (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
-	at java.base/java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-WARN  [AWT-EventQueue-0] 2021-07-18 16:34:48,791 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
-	at java.base/java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-WARN  [AWT-EventQueue-0] 2021-07-18 16:36:49,178 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_1.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_1.xml (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
-	at java.base/java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-WARN  [AWT-EventQueue-0] 2021-07-18 16:36:49,196 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
-	at java.base/java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-WARN  [AWT-EventQueue-0] 2021-07-18 16:38:10,966 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_2.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.data_set_2.xml (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
-	at java.base/java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-WARN  [AWT-EventQueue-0] 2021-07-18 16:38:10,970 repast.simphony.scenario.AbstractActionLoader - Error attempting to load file '/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml'. Not loading the action from that file.
-java.io.FileNotFoundException: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/UnrestSocial.rs/repast.simphony.action.file_sink_3.xml (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
-	at java.base/java.io.FileReader.<init>(FileReader.java:72)
-	at repast.simphony.scenario.AbstractActionLoader.loadAction(AbstractActionLoader.java:34)
-	at repast.simphony.scenario.ScenarioFileLoader.createActions(ScenarioFileLoader.java:90)
-	at repast.simphony.scenario.ScenarioFileLoader.load(ScenarioFileLoader.java:66)
-	at repast.simphony.scenario.ScenarioLoader.load(ScenarioLoader.java:199)
-	at repast.simphony.ui.RSApplication.open(RSApplication.java:359)
-	at repast.simphony.ui.RSAppConfigurator.postWindowOpen(RSAppConfigurator.java:39)
-	at saf.core.ui.GUICreatorDelegate.runDisplay(GUICreatorDelegate.java:216)
-	at saf.core.ui.GUICreator$1.run(GUICreator.java:18)
-	at simphony.util.ThreadUtilities$Runner.run(ThreadUtilities.java:33)
-	at simphony.util.ThreadUtilities.runInEventThread(ThreadUtilities.java:47)
-	at saf.core.ui.GUICreator.runDisplay(GUICreator.java:16)
-	at repast.simphony.ui.RSUIPlugin$1.run(RSUIPlugin.java:101)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-ERROR [AWT-EventQueue-0] 2021-07-18 16:38:56,185 repast.simphony.ui.RSApplication - Error while initializing simulation
-java.lang.NullPointerException
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction.processContext(ScheduledMethodControllerAction.java:160)
-	at repast.simphony.engine.controller.ScheduledMethodControllerAction.runInitialize(ScheduledMethodControllerAction.java:185)
-	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:214)
-	at repast.simphony.engine.controller.DefaultController$2.visit(DefaultController.java:1)
-	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:292)
-	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:295)
-	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:288)
-	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:212)
-	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:383)
-	at repast.simphony.ui.RSApplication.initSim(RSApplication.java:157)
-	at repast.simphony.ui.RSApplication.start(RSApplication.java:189)
-	at repast.simphony.ui.action.StartRun.actionPerformed(StartRun.java:17)
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
-	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:270)
-	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6589)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6354)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2261)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4966)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2319)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4798)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4914)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4543)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4484)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2305)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4798)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
-	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-INFO  [AWT-EventQueue-0] 2021-07-18 18:51:58,569 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-18 18:51:58,635 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:49:35,623 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:49:35,680 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:52:26,200 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:52:26,203 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:53:39,011 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:53:39,013 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:54:57,767 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:54:57,769 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:55:51,707 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:55:51,709 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:56:43,677 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:56:43,680 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:57:37,490 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:57:37,493 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:57:57,654 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:57:57,657 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt
-INFO  [AWT-EventQueue-0] 2021-07-19 14:58:32,625 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/output/config.props
-INFO  [AWT-EventQueue-0] 2021-07-19 14:58:32,626 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	/Users/aadhikari/Documents/Simulation/Tn/MATRIX_FINAL_SUBMISSION/UnrestProject/UnrestSocial/batch/batch_params.xml to
-	/var/folders/4n/7zq8xg4s2b53s59brx6hr1l00000gn/T/unrolledParamFile.txt

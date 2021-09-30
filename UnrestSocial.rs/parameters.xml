@@ -4,20 +4,17 @@
 						defaultValue="1" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
-									
-		/>
+											/>
 				<parameter name="neighborhood" displayName="Neighborhood Size" type="double" 
-						defaultValue="300" 
+						defaultValue="0.5" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
-									
-		/>
+											/>
 				<parameter name="window" displayName="Window Size" type="double" 
-						defaultValue="0.1" 
+						defaultValue="0.6" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
-									
-		/>
-</parameters>
+											/>
+		</parameters>
 
 

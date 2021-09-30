@@ -22,14 +22,24 @@ public class Region {
 	double neighborhood_size;
 	double samestate;
 	double changestate;
+	
 	List<String> district = Arrays.asList("Ariyalur", "Chennai","Coimbatore","Cuddalore",
 			"Dharmapuri","Dindigul","Erode","Kanchipuram","Kanyakumari","Karur","Krishnagiri",
 			"Madurai","Nagapattinam","Namakkal","Nilgiris","Perambalur","Pudukkottai","Ramanathapuram",
 			"Salem","Sivaganga","Thanjavur","Theni","Thoothukudi","Tiruchirappalli","Tirunelveli",
 			"Tiruppur","Tiruvallur","Tiruvannamalai","Tiruvarur","Vellore","Viluppuram","Virudhunagar");
 	
+	
+	
+//	List<String> district = Arrays.asList("Anantapur", "Chittoor", "East-Godavari", "Guntur", "Kadapa", 
+//			"Krishna", "Kurnool", "Nellore", "Prakasam", "Srikakulam", "Visakhapatnam", "Vizianagaram", "West-Godavari");
+//	
+		
+//	List<String> district = Arrays.asList("Bilaspur", "Chamba", "Hamirpur", "Kangra", "Kinnaur", "Kullu", 
+//			"Lahul-Spiti", "Mandi", "Shimla", "Sirmaur", "Solan", "Una");
+	
 	String district_name;
-	String path1 = "./data/latlong.csv";
+	String path1 = "./data/tn/latlong.csv";
 	
 	CsvParser cr = new CsvParser(path1);
 	List<List<Double>> data1 = cr.csvReader();
@@ -39,7 +49,6 @@ public class Region {
 	
 //	private double same_sate_proba;
 //	private double state_change_proba;
-	
 	
 	private double state_color;
 	

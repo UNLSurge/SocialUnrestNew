@@ -57,7 +57,7 @@ public class Probability {
 		Determinestate d1 = new Determinestate(this.i, this.n);
 		List<Integer>S = d1.neighborStatelist(this.neighborsize).get(0);		
 		List<Integer>I = d1.neighborStatelist(this.neighborsize).get(1);
-		List<Integer>R = d1.neighborStatelist(this.neighborsize).get(2);
+
 		List<Double> prob = new ArrayList<>();
 		double a_a = 0;
 		double a_b = 0;
@@ -65,8 +65,8 @@ public class Probability {
 		double change = 0;
 //		System.out.println("The regions current state is: "+ d1.regionCurrentstate());
 		if(d1.regionCurrentstate() == "S") {
-			Likelihood l1 = new Likelihood(this.i,S,this.n,this.w, this.neighborsize);
-			Likelihood l2 = new Likelihood(this.i,I,this.n, this.w, this.neighborsize);
+			Likelihood l1 = new Likelihood(this.i,S,this.n,this.w, this.neighborsize, true);
+			Likelihood l2 = new Likelihood(this.i,I,this.n, this.w, this.neighborsize, false);
 			same = l1.calc_l();
 			change = l2.calc_l();
 			a_a = same/(same + change);
@@ -75,18 +75,8 @@ public class Probability {
 			lsave = removeDuplicates(lsave);
 		}
 		if(d1.regionCurrentstate() == "I") {
-			Likelihood l1 = new Likelihood(this.i,I,this.n, this.w, this.neighborsize);
-			Likelihood l2 = new Likelihood(this.i,R,this.n, this.w, this.neighborsize);
-			same = l1.calc_l();
-			change = l2.calc_l();
-			a_a = same/(same + change);
-			a_b = change/(same + change);
-			setLsave(same, change);
-			lsave = removeDuplicates(lsave);
-		}
-		if(d1.regionCurrentstate() == "R") {
-			Likelihood l1 = new Likelihood(this.i,R,this.n, this.w, this.neighborsize);
-			Likelihood l2 = new Likelihood(this.i,S,this.n, this.w, this.neighborsize);
+			Likelihood l1 = new Likelihood(this.i,I,this.n, this.w, this.neighborsize, true);
+			Likelihood l2 = new Likelihood(this.i,S,this.n, this.w, this.neighborsize, false);
 			same = l1.calc_l();
 			change = l2.calc_l();
 			a_a = same/(same + change);
@@ -96,6 +86,7 @@ public class Probability {
 		}
 		prob.add(a_a);
 		prob.add(a_b);
+		System.out.println("Region " +this.i+ " in time step "+ this.n + " has neighbor "+ (S.size()+I.size()));
 		return prob;
 	}
 	
@@ -103,7 +94,7 @@ public class Probability {
 	public String nextState() {
 		String next_state;
 		double randnum = getRand(this.i, this.n, this.run_index);
-//		System.out.println("Random number with index : "+ this.run_index + " is " +randnum);
+
 		Determinestate d = new Determinestate(this.i, this.n);
 		String current_state = d.regionCurrentstate();
 		List<Double> proba = calcProbability();
@@ -119,9 +110,6 @@ public class Probability {
 				if(current_state == "S") {
 					next_state = "I";
 				}
-				else if (current_state == "I") {
-					next_state = "R";
-				}
 				else {
 					next_state = "S";
 				}
@@ -132,9 +120,6 @@ public class Probability {
 				if(current_state == "S") {
 					next_state = "I";
 				}
-				else if (current_state == "I") {
-					next_state = "R";
-				}
 				else {
 					next_state = "S";
 				}
@@ -144,7 +129,6 @@ public class Probability {
 			}
 		}
 //		System.out.println("Current state for region " +this.i+ "in time step "+ this.n + " is "+ current_state);
-//		System.out.println(lsave);
 		return next_state;
 	}
 	public List<Double> getLsave() {
@@ -174,19 +158,19 @@ public class Probability {
         return newlist; 
     } 
 	
-	public double chosen() {
-		List<Double> proba1 = calcProbability();
-		Determinestate d1 = new Determinestate(this.i, this.n);
-		String current_state1 = d1.regionCurrentstate();
-		String next_state1 = nextState();
-		
-		if(next_state1 == current_state1) {
-			return proba1.get(0);
-		}
-		else {
-			return proba1.get(1);
-		}
-	}
+//	public double chosen() {
+//		List<Double> proba1 = calcProbability();
+//		Determinestate d1 = new Determinestate(this.i, this.n);
+//		String current_state1 = d1.regionCurrentstate();
+//		String next_state1 = nextState();
+//		
+//		if(next_state1 == current_state1) {
+//			return proba1.get(0);
+//		}
+//		else {
+//			return proba1.get(1);
+//		}
+//	}
 //	public static void main(String[] args) {
 //		Probability pex1 = new Probability(0, 1, 2, 300);
 //		System.out.println(pex1.calcProbability());

@@ -24,6 +24,7 @@ public class UnrestBuilder implements ContextBuilder<Object>{
 	public int window_size;
 	public double window;
 	public int currentstep;
+	// Tamil Nadu - 32, Andhra Pradesh - 13, Himachal Pradesh - 12
 	public int region_num = 32;
 	public int run_index;
 
@@ -62,6 +63,7 @@ public class UnrestBuilder implements ContextBuilder<Object>{
 	public List<Region> allRegion(){
 		List<Region> regions = new ArrayList<Region>();
 		for(int i=0; i<region_num; i++){
+			System.out.println(i);
 			Region r1 = new Region(i, this.currentstep, this.neighborhood_size, this.window_size, this.run_index);
 //			Region r2 = new Region(i, this.currentstep+1, this.neighborhood_size, this.window_size);
 			regions.add(r1);

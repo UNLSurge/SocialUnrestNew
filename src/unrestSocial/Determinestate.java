@@ -41,8 +41,6 @@ public class Determinestate {
 	public List<Double> giveEventCount(int r){
 		int t = 48;
 		List<Double> region = new ArrayList<>();
-//		System.out.println("i" + Integer.toString(i));
-//		System.out.println("n" + Integer.toString(n));
 		for(int i=0; i<t; i++) {
 			int index = (r)*t + (i);
 			double eventcount = this.data.get(index).get(6);
@@ -62,35 +60,15 @@ public class Determinestate {
 	public List<String> giveState(int r){
 		List<Double> reg = new ArrayList<>();
 		reg = this.giveEventCount(r);
-		int counter = 0;
 		List<String> regstate = new ArrayList<>();
-		for(int i=0; i<reg.size(); i++) {
-			if (reg.get(i) == 0) {
-				counter++;
-				if(i == reg.size() -1) {
-					for(int j=0; j<counter/2; j++) {
-						regstate.add("R");
-					}
-					for(int k=0; k<counter-counter/2; k++) {
-						regstate.add("S");
-					}
-				}
+		
+		for (Double i: reg) {
+			if(i == 0) {
+				regstate.add("S");
 			}
 			else {
-				for(int l=0; l<counter/2; l++) {
-					regstate.add("R");
-				}
-				for(int m=0; m<counter-counter/2; m++) {
-					regstate.add("S");
-				}
 				regstate.add("I");
-				counter = 0;
 			}
-		}
-		for(int i=1; i<regstate.size()-1; i++) {
-			if(regstate.get(i-1) == "I" && regstate.get(i) == "S" && regstate.get(i+1) == "I") {
-				regstate.set(i, "I");
-			}	
 		}
 		return regstate;
 	}
@@ -103,6 +81,8 @@ public class Determinestate {
 		List<String> state = new ArrayList<>();
 		for(int i=0; i<num_r; i++) {
 			state = giveState(i);
+			System.out.print(i + " : ");
+			System.out.println(state);
 			fullstate.add(state);
 		}
 		return fullstate;
@@ -118,17 +98,15 @@ public class Determinestate {
 		
 		List<List<String>> fullstate = new ArrayList<>();
 		
-		fullstate = giveFullstate(32);
+		fullstate = giveFullstate(32); // Tamil Nadu
+//		fullstate = giveFullstate(12); // Himachal Pradesh
+//		fullstate = giveFullstate(13); // Andhra Pradesh 
 		List<List<Integer>> state = new ArrayList<>();
 		List<Integer> stateS = new ArrayList<>();
 		List<Integer> stateI = new ArrayList<>();
-		List<Integer> stateR = new ArrayList<>();
 		
 		for(int i=0; i<fullstate.size(); i++) {
-			if(fullstate.get(i).get(this.current) == "R") {
-				stateR.add(i);
-			}
-			else if(fullstate.get(i).get(this.current) == "I") {
+			if(fullstate.get(i).get(this.current) == "I") {
 				stateI.add(i);
 			}
 			else {
@@ -137,7 +115,6 @@ public class Determinestate {
 		}
 		state.add(stateS);
 		state.add(stateI);
-		state.add(stateR);
 		
 		return state;
 	}
@@ -159,32 +136,56 @@ public class Determinestate {
 		List<List<Integer>> neighstate = new ArrayList<>();
 		List<Integer> neighS = new ArrayList<>();
 		List<Integer> neighI = new ArrayList<>();
-		List<Integer> neighR = new ArrayList<>();
 		
 		state = determineStatelist();
-		for(Integer i:neigh) {
-			for(int j=0; j<state.get(0).size(); j++) {
-				if(i==state.get(0).get(j)) {
-					neighS.add(i);
-				}
+		for(int i=0; i<neigh.size(); i++) {
+			int current = neigh.get(i);
+			if(state.get(0).contains(current)){
+				neighS.add(neigh.get(i));
 			}
-			
-			for(int j=0; j<state.get(1).size(); j++) {
-				if(i==state.get(1).get(j)) {
-					neighI.add(i);
-				}
-			}
-			for(int j=0; j<state.get(2).size(); j++) {
-				if(i==state.get(2).get(j)) {
-					neighR.add(i);
-				}
+			if(state.get(1).contains(current)){
+				neighI.add(neigh.get(i));
 			}
 		}
 		neighstate.add(neighS);
 		neighstate.add(neighI);
-		neighstate.add(neighR);
 		
 		return neighstate;
+	}
+	
+	public List<List<Double>> neighborSharedBoundarylist(double ns){
+		Neighbor nb = new Neighbor(this.regions, this.current,  ns);
+		List<Integer> neigh = new ArrayList<>();
+		List<Double> percent = new ArrayList<>();
+		neigh = nb.findNeighbor();
+		percent = nb.getInfluence();
+		
+//		System.out.println(neigh.size());
+//		System.out.println(neigh);
+//
+//		System.out.println(percent.size());
+//		System.out.println(percent);
+		
+		List<List<Integer>> state = new ArrayList<>();
+		List<List<Double>> sharedpercent = new ArrayList<>();
+		List<Double> sharedS = new ArrayList<>();
+		List<Double> sharedI = new ArrayList<>();
+		
+		state = determineStatelist();
+//		System.out.println(state.get(0));
+		for(int i=0; i<neigh.size(); i++) {
+			int current = neigh.get(i);
+			if(state.get(0).contains(current)){
+				sharedS.add(percent.get(i));
+			}
+			if(state.get(1).contains(current)){
+				sharedI.add(percent.get(i));
+			}
+		}
+		sharedpercent.add(sharedS);
+		sharedpercent.add(sharedI);
+		
+		return sharedpercent;
 	}
 	
 	/*
@@ -206,20 +207,29 @@ public class Determinestate {
 				str = "I";
 			}	
 		}
-		for(int i=0; i<statelist.get(2).size(); i++) {
-			if(statelist.get(2).get(i) == this.regions) {
-				str = "R";
-			}	
-		}
 		return str;
-	}		
-//	public static void main(String[] args) {
-//		Determinestate d1 = new Determinestate(0, 0);
+	}
+	
+	
+//	// Main Method - used for debugging
+	public static void main(String[] args) {
+		Determinestate d1 = new Determinestate(10, 0);
+//		System.out.println(d1.determineStatelist());
+//		System.out.println(d1.giveFullstate(32));
+		d1.giveFullstate(32);
+//		System.out.println(d1.neighborStatelist(0.5));
 //		System.out.println(d1.regionCurrentstate());
+
+		
+//		for (Integer i: d1.neighborStatelist(0.5).get(1)) {
+//			System.out.println(i);
+//
+//		}
+//		System.out.println(d1.neighborStatelist(0.5).get(1));
 //		System.out.println(d1.giveFullstate(3));
 //		d1.giveState(0);
 //		System.out.println(d1.giveState(1));
 //		System.out.println(d1.giveEventCount(0));
-//	}
+	}
 }
 
