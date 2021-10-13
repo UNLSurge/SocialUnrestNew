@@ -17,7 +17,7 @@ public class CsvParser {
 	String fileName ; 
 	
 	public CsvParser() {
-		this.fileName = "./data/tn_weighted.csv";
+		this.fileName = "./data/tn/weighted.csv";
 	}
 	
 	public CsvParser(String path) {

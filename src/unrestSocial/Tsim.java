@@ -40,6 +40,17 @@ public class Tsim {
 		}
 	}
 	
+	public double get_intensity(int i, int n) {
+		int t = 48;
+		int index = (i)*t + (n);
+		if(index < 0) {
+			return this.data.get(0).get(7);
+		}
+		else {
+			return this.data.get(index).get(7);
+		}
+	}
+	
 	public double cosine_sim(List<Double>l1, List<Double> l2) {
 		
 		
@@ -59,15 +70,35 @@ public class Tsim {
 	
 	}
 	public double aplha(int i,int n) {
-		if(n != 0) {
-			List<Double> l1 = getVector(i, n);
-			List<Double> l2 = getVector(i, n-1);
-			Double sim = cosine_sim(l1,l2);
-			return sim;
-		}
-		else {
-			return 0;
-		}
+		double sim;
+//		if(n != 0) {
+//			List<Double> l1 = getVector(i, n);
+//			List<Double> l2 = getVector(i, n-1);
+//			double now = get_intensity(i, n);
+//			double prev = get_intensity(i, n-1);
+//			
+//			if(now == 0 && prev == 0) {
+//				sim = 0.5;
+//			}
+//			else if (now != 0 && prev != 0) {
+//				if(prev > now) {
+//					sim = 0.5;
+//				}
+//				else {
+//					sim = cosine_sim(l1,l2);
+//				}
+//			}
+//			else {
+//				sim = 0.5;
+//			}
+//		}
+//		else {
+////			System.out.println("this");
+//			sim = 0.5;
+//		}
+//		System.out.println(sim);
+		sim = 0.4; 
+		return sim;
 	}
 	
 	public double similarity(int i, int j,int n) {
@@ -84,28 +115,30 @@ public class Tsim {
 	
 	public  double calc_t() {
 
-	Double alpha;
-	Double sim;
-	Double t;
-	Double previous_t;
-	
-	alpha = aplha(this.i,this.n);
-	sim = similarity(this.i,this.j,this.n);
-	
-	if (this.n<=2) {
-		previous_t = (1-alpha)*sim;
-	}
-	else {
-//		previous_t = new Tsim(this.i,this.j,this.n-1).calc_t();
-		previous_t = getPrevtsim(this.i, this.j, this.n-1);
-//		System.out.println(previous_t);
-	}
-	
-	t = (alpha * previous_t + (1-alpha)*sim);
-	
-	setPrevtsim(i, j, n, t);
-	
-	return t;
+		double alpha;
+		double sim;
+		double t;
+		double previous_t;
+		
+		alpha = aplha(this.i,this.n);
+		sim = similarity(this.i,this.j,this.n);
+		
+		if (this.n<=2) {
+			previous_t = (1-alpha)*sim;
+		}
+		else {
+	//		previous_t = new Tsim(this.i,this.j,this.n-1).calc_t();
+			previous_t = getPrevtsim(this.i, this.j, this.n-1);
+//			System.out.println(prevtsim);
+//			System.out.println(previous_t);
+		}
+		
+		t = (alpha * previous_t + (1 - alpha) *sim);
+		
+		setPrevtsim(i, j, n, t);
+		
+//		prevtsim = removeDuplicates(prevtsim);
+		return t;
 	
 	}
 	
@@ -123,5 +156,17 @@ public class Tsim {
 		List<Double> plist = Arrays.asList((double)i, (double)j, (double)n, tsim);
 		prevtsim.add(plist);
 	}
+	
+	public List<List<Double>> removeDuplicates(List<List<Double>> list) 
+    { 
+		List<List<Double>> newlist = new ArrayList<>(); 
+        for (List<Double> l: list) { 
+            if (!newlist.contains(l)) { 
+                newlist.add(l); 
+            } 
+        } 
+
+        return newlist; 
+    } 
 	
 }
