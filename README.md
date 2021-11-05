@@ -43,10 +43,12 @@ Variables NEIGHBORHOOD_SIZE, RUN_INDEX are all assigned values through the Repas
 
 ~~~~
 <parameters>
-    <parameter name="neighborhood" displayName="Neighborhood Size" type="double" 
-						defaultValue="0.5" 
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"					
+    <parameter name="neighborhood"
+	       displayName="Neighborhood Size"
+	       type="double" 
+	       defaultValue="0.5" 
+	       isReadOnly="false" 
+converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"					
 		/>
 </parameters>
 ~~~~
