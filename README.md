@@ -41,6 +41,7 @@ As introduced earlier, the UnrestBuilder implements the Repast Symphony class Co
 
 Variables NEIGHBORHOOD_SIZE, RUN_INDEX are all assigned values through the Repast GUI. The descriptions of these paameters are written in the parameters.xml file in the SocialUnrest.rs folder. For example, the "Death Intensity" and "Recovery Rate" are written as:
 
+~~~~
 <parameters>
     <parameter name="neighborhood" displayName="Neighborhood Size" type="double" 
 						defaultValue="0.5" 
@@ -48,8 +49,10 @@ Variables NEIGHBORHOOD_SIZE, RUN_INDEX are all assigned values through the Repas
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"					
 		/>
 </parameters>
+~~~~
 After giving the input, the parameters are pulled into the context
 
+~~~~
 Parameters params = RunEnvironment.getInstance().getParameters();
 
 <context id="SocialUnrest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
@@ -60,6 +63,7 @@ GeographyParameters<Object> geoparams = new GeographyParameters<Object>();
 GeographyFactory factory = GeographyFactoryFinder.createGeographyFactory(null);
 Geography<Object> geography = factory.createGeography("Geography", context, geoparams);
 GeometryFactory fac = new GeometryFactory();
+~~~~
 In our project we import preprocessed datasets and create events out of it. This is also done in the UnrestBuilder using the readData(String filePath) method. The file is then read and all the events in the given file is added to the context as agents. The agents all have the alive property set to false and markSize set to 1 in the beginning.
 
 ### Run a simple simulation
