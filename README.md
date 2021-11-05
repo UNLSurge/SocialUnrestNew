@@ -57,7 +57,8 @@ After giving the input, the parameters are pulled into the context
 ~~~~
 Parameters params = RunEnvironment.getInstance().getParameters();
 
-<context id="SocialUnrest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+<context id="SocialUnrest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
   	<projection id="Geography" type="geography"/>
 </context>
 context.setId("SocialUnrest");
