@@ -2,13 +2,13 @@
 
 This model was built as part of the research on anticipating the spread of social unrest events at the University of Nebraska-Lincoln and Citadel University. This research is funded by the National Geospatial-Intelligence Agency.
 
-In our framework, each individual region acts as an agent that can communicate with other agents within its predefined neighborhood. The software is built upon the Repast Symphony (RS) 2.6 framework. It is a open-source agent-based modelling and simulation platform, it's an interactive Java-based modeling system designed for use on workstations and small computing clusters. A getting started guide is can be found at: https://repast.github.io/docs/RepastJavaGettingStarted.pdf. It is reccomended that the user go through this guide before starting a new project or modifying existing ones. I will still try to cover the necessary details in this document.
+In our framework, each region acts as an agent that can communicate with other agents within its predefined neighborhood. The software is built upon the Repast Symphony (RS) 2.6 framework. It is an open-source agent-based modeling and simulation platform. It is an interactive Java-based modeling system designed for use on workstations and small computing clusters. A getting started guide is can be found at: https://repast.github.io/docs/RepastJavaGettingStarted.pdf. It is recommended that the user goes through this guide before starting a new project or modifying existing ones. However, I will still try to cover the necessary details in this document.
 
 ## Brief introdction to Repast Symphony
-In Repast Symphony framework, the enviroment is initalized in a class that extends the Repast class ContextBuilder. In our project, we named this initializing class UnrestBuilder. We can simply define our main agents as normal classes. Inside the UnrestBuilder, we create an environment (Context), we then add the agents to this context and return it. In our case, we defined an Event class to define the event-type agents and the Observer class to create an observer agent.
+In the Repast Symphony framework, the environment is initialized to extend the Repast class ContextBuilder. In our project, we named this initializing class UnrestBuilder. Thus, we can define our main agents as normal classes. Inside the UnrestBuilder, we create an environment (Context). We then add the agents to this context and return it. In our case, we defined an Event class to define the event-type agents and the Observer class to create an observer agent.
 
 ### Scheduling
-We can simply create a method inside the agent class definition and add a scheduler to it. These methods will be executed for each object of that agent-class during simulation.
+We can create a method inside the agent class definition and add a scheduler to it. These methods will be executed for each object of that agent class during simulation.
 ~~~~
 @ScheduledMethod(start=0, interval=1, priority = 4)
 public void makeAlive() {
@@ -20,7 +20,7 @@ There is a context.xml file in the ./<ProjectName>.rs directory. We need to prov
 ~~~~
 <projection id="Geography" type="geography"/>
 ~~~~
-We will be working with spatio-temporal data, this means the data has geospatial components (longitude, latitude) and a time element, among other variables. To make calculations in time, I am using the Joda-Time API. The spatial distances will be calculated using the Haversine formula. We also created an Observer object due to restrictions of the Repast Framework to store data (please see class description below for more details).
+We will be working with Spatio-temporal data, and this means the data has geospatial components (longitude, latitude) and a time element, among other variables. To make calculations in time, I am using the Joda-Time API. The spatial distances will be calculated using the Haversine formula. We also created an Observer object due to restrictions of the Repast Framework to store data (please see class description below for more details).
 
 ### Event Class 
 Each region(administrative-district) is an agent, an object of the Region class. Each event in general has the following information.
